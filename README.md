@@ -11,7 +11,7 @@
 ## How to Install (usage)
 
 1. **Download the Extension:**
-   - Download the [hotel-id-finder-extension.zip](https://github.com/your-repo/hotel-id-finder-extension/archive/refs/heads/main.zip) file from the repository.
+   - Download the [hotel-id-finder-extension.zip](https://github.com/HaimanotG/hotel-id-finder-extension/blob/main/hotel-id-finder-extension.zip) file from the repository.
 
 2. **Extract the ZIP File:**
    - Extract the contents of the `hotel-id-finder-extension.zip` file to a folder on your computer.
