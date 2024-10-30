@@ -7,15 +7,17 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
-      width: 150px;
+      width: 300px;
       text-align: center;
       background-color: #f5f5f5;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     h3 {
       margin-top: 0;
       color: #333;
-      font-size: 18px;
+      font-size: 20px;
     }
 
     #copyButton {
@@ -27,6 +29,7 @@
       font-size: 14px;
       cursor: pointer;
       transition: background-color 0.3s ease;
+      margin-top: 10px;
     }
 
     #copyButton:hover {
@@ -34,16 +37,36 @@
     }
 
     #status {
-      margin-top: 15px;
       font-size: 14px;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .message {
+      background-color: #e9f7ef;
       color: #28a745;
+      border: 1px solid #28a745;
+      border-radius: 4px;
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 16px;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
-  <h3>Hotel ID Finder</h3>
-  <button id="copyButton">Copy Hotel ID</button>
-  <p id="status" ></p>
+  <div class="container">
+    <h3>Hotel ID Finder</h3>
+    <div id="status">Click the button to find the hotel ID.</div>
+    <button id="copyButton">Copy Hotel ID</button>
+    <div id="message" class="message" style="display: none;"></div>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>
